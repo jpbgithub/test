@@ -12,3 +12,5 @@ do
    # echo "$counter"
     echo "This is pass $counter"
 done
+echo "That was great!"
+
