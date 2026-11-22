@@ -1,0 +1,9 @@
+#!/bin/bash
+
+bottle_count=100
+message="bottles of beer on the wall"
+while [[ bottle_count -ne 0 ]] ; do
+
+  echo "${bottle_count}-${message}"
+  (( bottle_count -= 1 ))
+done
